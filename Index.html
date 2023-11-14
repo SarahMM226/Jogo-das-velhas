@@ -4,21 +4,21 @@
     <title>jogo das velhas</title>
   <style>
     h1{ 
-      Color: red;
-      Background: black;
+      color: red;
+      background: black;
       }
 
     td {
       color: white;
-      Background: blue;
-      Font-size: 90px;
-      Width: 100px;
-      Height: 100px;
-      Text-align: center;
+      background: blue;
+      font-size: 90px;
+      width: 100px;
+      height: 100px;
+      text-align: center;
     }
     td:hover {
-      Background: red;
-      Cursor: pointer;
+      background: red;
+      cursor: pointer;
     }
   </style>
   </head>
@@ -42,13 +42,13 @@
       </tr>
     </table>
     <script>
-      Var veia = "X"
-        Function marcar (td) {
+      var veia = "X"
+        function marcar (td) {
           td.innerHTML = veia
-            If (veia == "X") {
-              Veia = "O" }
-          Else {
-            Veia = "X" }
+            if (veia == "X") {
+              veia = "O" 
+             } else   {
+            veia = "X" }
         }
     </script>
   </body>
