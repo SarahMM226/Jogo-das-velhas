@@ -1,0 +1,56 @@
+<html>
+  <head>
+
+    <title>jogo das velhas</>
+  <style>
+    h1{ 
+      Color: red;
+      Background: black;
+      }
+
+    jd {
+      color: white;
+      Background: blue;
+      Font-size: 75px;
+      Width: 100px;
+      Height: 100px;
+      Text-align: center;
+    }
+    td-hover {
+      Background: red;
+      Color: blue;
+      Cursor: pointer;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>JOGA VELHA o_o</h1>
+    <table>
+      <tr>
+        <td onclick = "marcar (this)"> </td>
+        <td onclick = "marcar (this)"> </td>
+        <td onclick = "marcar (this)"> </td>
+      </tr>
+      <tr>
+        <td onclick = "marcar (this)"> </td>
+        <td onclick = "marcar (this)"> </td>
+        <td onclick = "marcar (this)"> </td>
+      </tr>
+      <tr>
+        <td onclick = "marcar (this)"> </td>
+        <td onclick = "marcar (this)"> </td>
+        <td onclick = "marcar (this)"> </td>
+      </tr>
+    </table>
+    <script>
+      Var veia = "X"
+        Function marcar (td) {
+          td-innerHTML = veia
+            If (veia == "X") {
+              Veia = "O" }
+          Else {
+            Veia = "X" }
+        }
+    </script>
+  </body>
+</html>
